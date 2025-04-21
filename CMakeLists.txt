@@ -4,6 +4,6 @@ set(CMAKE_C_STANDARD 11)
 
 set(CMAKE_C_STANDARD_REQUIRED ON)
 
-add_executable(detached_threads detached_threads.c)
-add_executable(joinable_threads joinable_threads.c)
-add_executable(multiprocessing processes.c)
+add_executable(detached_threads src/detached_threads.c)
+add_executable(joinable_threads src/joinable_threads.c)
+add_executable(multiprocessing src/processes.c)
